@@ -40,8 +40,7 @@ CREATE TABLE [dbo].[cliente](
 	[nmUsuarioCadastro] [varchar](50) NOT NULL,
 	[dtCadastro] [datetime] NOT NULL,
 	[nmUsuarioAlteracao] [varchar](50) NULL,
-	[dtAlteracao] [datetime] NULL,
-	[ativo] [bit] NOT NULL,
+	[dtAlteracao] [datetime] NULL
  CONSTRAINT [PK_tb_cliente] PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
@@ -65,7 +64,6 @@ CREATE TABLE [dbo].[endereco](
 	[dtCadastro] [datetime] NOT NULL,
 	[nmUsuarioAlteracao] [varchar](50) NULL,
 	[dtAlteracao] [datetime] NULL,
-	[ativo] [bit] NOT NULL,
 	[idCliente] [int] NOT NULL,
  CONSTRAINT [PK_tb_endereco] PRIMARY KEY CLUSTERED 
 (

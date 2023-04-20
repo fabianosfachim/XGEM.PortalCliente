@@ -23,6 +23,7 @@ namespace XGEM.PortalCliente.IOC
             services.AddScoped<ILoginServices, LoginServices>();
             services.AddScoped<IEstadoServices, EstadoServices>();
             services.AddScoped<IClienteServices, ClienteServices>();
+            services.AddScoped<IEnderecoServices, EnderecoServices>();
 
             //Repository//
             services.AddSingleton(typeof(IEntityRepository<>), typeof(EntityBaseRepository<>));
@@ -31,7 +32,7 @@ namespace XGEM.PortalCliente.IOC
             services.AddScoped<ILoginRepository, LoginRepository>();
             services.AddScoped<IEstadoRepository, EstadoRepository>();
             services.AddScoped<IClienteRepository, ClienteRepository>();
-
+            services.AddScoped<IEnderecoRepository, EnderecoRepository>();
 
             #endregion
         }

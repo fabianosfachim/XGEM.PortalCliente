@@ -15,6 +15,7 @@ namespace XGEM.PortalCliente.Domain.Entities
         public DateTime? dtCadastro { get; set; }
         public string? nmUsuarioAlteracao { get; set; }
         public DateTime? dtAlteracao { get; set; }
+  
 
     }
 }
