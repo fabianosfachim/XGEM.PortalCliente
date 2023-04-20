@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Globalization;
 using XGEM.PortalCliente.Domainl.Entities;
 
@@ -18,7 +19,6 @@ namespace XGEM.PortalCliente.Domain.Entities
         public DateTime? dtCadastro { get; set; }
         public string? nmUsuarioAlteracao { get; set; }
         public DateTime? dtAlteracao { get; set; }
-        public bool? ativo { get; set; }
         public int idCliente { get; set; }
         
     }

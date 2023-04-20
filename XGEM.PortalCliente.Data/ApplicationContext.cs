@@ -9,7 +9,7 @@ namespace XGEM.PortalCliente.Data
     {
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {
-            ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
+            //ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
