@@ -29,13 +29,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tabelas", "Tabelas", "{9B86
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoredProcedure", "StoredProcedure", "{DE432C9E-575C-42ED-BEFC-4D26B76FB9BD}"
-	ProjectSection(SolutionItems) = preProject
-		sp_ListarEstado.sql = sp_ListarEstado.sql
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XGEM.PortalCliente.API", "XGEM.PortalCliente.API\XGEM.PortalCliente.API.csproj", "{1302C670-A56F-4FE8-B26B-587F13630464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XGEM.PortalCliente.API", "XGEM.PortalCliente.API\XGEM.PortalCliente.API.csproj", "{1302C670-A56F-4FE8-B26B-587F13630464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XGEM.PortalCliente.IOC", "XGEM.PortalCliente.IOC\XGEM.PortalCliente.IOC.csproj", "{A8AE44A4-02CE-4CB2-9729-955E16626B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XGEM.PortalCliente.IOC", "XGEM.PortalCliente.IOC\XGEM.PortalCliente.IOC.csproj", "{A8AE44A4-02CE-4CB2-9729-955E16626B22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

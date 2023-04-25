@@ -11,7 +11,7 @@ namespace XGEM.PortalCliente.Domain.Entities
         public int id { get; set; }
         public string? endereco { get; set; }
         public string? complementoEndereco { get; set; }
-        public string? numeroEndereco { get; set; }
+        public int? numeroEndereco { get; set; }
         public string? cep { get; set; }
         public string? bairro { get; set; }
         public int? idEstado { get; set; }

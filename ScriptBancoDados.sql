@@ -1,5 +1,6 @@
 USE [bd_xgem]
 GO
+
 ALTER TABLE [dbo].[endereco] DROP CONSTRAINT [FK_tb_endereco_tb_estado]
 GO
 ALTER TABLE [dbo].[endereco] DROP CONSTRAINT [FK_tb_endereco_tb_cliente]
